@@ -6,7 +6,7 @@ function getResponseFromAPI(){
 	  // Resolve the Promise with the API response
 	  resolve(apiResp);
 	}, 1000);
-  };
+  });
 }
 
 export default getResponseFromAPI;
