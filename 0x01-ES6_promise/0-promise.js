@@ -5,7 +5,7 @@ function getResponseFromAPI() {
       const apiResp = { data: 'Response from API.' };
       // Resolve the Promise with the API response
       resolve(apiResp);
-    }, 1000);
+    }, 2000);
   });
 }
 
