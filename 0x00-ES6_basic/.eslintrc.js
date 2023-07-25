@@ -30,6 +30,10 @@ module.exports = {
     {
       files: ['*.js'],
       excludedFiles: 'babel.config.js',
+	  files: ['1-block-scoped.js'],
+	  rules: {
+        'no-unused-vars': 'off', 
+	  },
     }
   ]
 };
