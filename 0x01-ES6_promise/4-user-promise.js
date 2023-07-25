@@ -1,9 +1,10 @@
-import { createUser } from "./utils";
-
-export default function signUpUser(firstName, lastName) {
-    return createUser(firstName, lastName)
-        .then((user) => {
-        console.log(`${user.firstName} ${user.lastName}`);
-        })
-        .catch(() => console.log('Signup system offline'));
-}
+function signUpUser(firstName, lastName) {
+    return new Promise((resolve, reject) => {
+      const user = {
+        firstName: firstName,
+        lastName: lastName,
+      };
+      resolve(user);
+    });
+  }
+  
