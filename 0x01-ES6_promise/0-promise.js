@@ -1,5 +1,5 @@
 function getResponseFromAPI(){
-  return new Promise ((resolve) => {
+  return new Promise((resolve) => {
   // Simulate an API call
     setTimeout(() => {
       const apiResp = {data: "Response from API."};
