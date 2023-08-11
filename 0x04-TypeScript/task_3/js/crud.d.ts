@@ -1,5 +1,4 @@
-import RowID from "interface";
-import RowElement from "interface";
+import { RowID, RowElement } from './interface';
 
 export default interface CRUD {
     create(data: RowElement): RowID;
