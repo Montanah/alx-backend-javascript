@@ -42,5 +42,4 @@ function getFieldStudents (field, lines) {
     return students.join(', ');
 }
 
-countStudents('database.csv');
 module.exports = countStudents;
