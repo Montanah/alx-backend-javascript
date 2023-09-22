@@ -1,0 +1,16 @@
+{
+  "name": "full_server",
+  "version": "1.0.0",
+  "description": "Full Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require babel-register --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.22.20"
+  }
+}
