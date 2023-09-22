@@ -7,7 +7,6 @@ closing (followed by a new line)
 Your code will be tested through a child process, make sure you have everything
 you need for that
 */
-
 process.stdout.write('Welcome to Holberton School, what is your name?\n');
 process.stdin.setEncoding('utf8');
 
